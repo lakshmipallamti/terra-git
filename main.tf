@@ -5,7 +5,7 @@ secret_key = "mh8+noLzmiC79FSTMy+/QRmDYGMvYxQiwi9E5jpl"
 }
 
 resource "aws_instance" "one" {
-ami = "AKIAW4QBUP22CNCIH7UG"
+ami = "ami-074dc0a6f6c764218"
 instance_type = "t2.micro"
 tags = {
 Name = "terra_instance"
