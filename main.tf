@@ -12,7 +12,7 @@ Name = "terra_instance"
 }
 }
 
-resource "aws_iam_user" "two" {
-name = "raham"
+resource "aws_s3_bucket" "two" {
+name = "sravani000"
 }
 
