@@ -13,6 +13,6 @@ Name = "terra_instance"
 }
 
 resource "aws_s3_bucket" "two" {
-name = "sravani000"
+bucket = "sravani5446000"
 }
 
